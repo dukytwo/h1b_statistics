@@ -22,4 +22,4 @@ The code is also modular and reusable for future. If the newspaper gets data for
 6. Write to output csv with header and then data
 
 # Run instructions
-Download H1B data from [Office of Foreign Labor Certification Performance Data]data Put  in the input directory, running the run.sh script should produce the results in the output folder without needing to change the code.
+Download H1B data from [Office of Foreign Labor Certification Performance Data] (https://www.foreignlaborcert.doleta.gov/performancedata.cfm#dis) and then put it in the input directory, run the run.sh script, wait untill 'Saved to file' shown. Find output file under output folder.
