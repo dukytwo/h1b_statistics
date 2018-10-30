@@ -1,7 +1,7 @@
 # Table of Contents
 1. [Problem](README.md#Problem)
 2. [Approach](README.md#Approach)
-3. [Run instructions](README.md#Run instructions)
+3.[Run instructions](README.md#Run instructions)
 
 # Problem
 
