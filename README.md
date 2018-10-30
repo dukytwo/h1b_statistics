@@ -16,7 +16,7 @@ The code has been tested on data from 2014 to 2018. The code is also modular and
 3. Read csv file line by line, use rows having 'CERTIFIED' in the 'CASE_STATUS' column and aggregate counts for each occupation ('SOC_NAME') and each state ('WORKSITE_STATE') seperately. A function was written to generate and return count dictionaries given any number of groups (e.g., occupation, state, and potential other variables) to analyze.
 4. Calculate total counts for occupations and states, and accordingly calculate percentages for each occupation and state, and then add the percentages to dictionary elements to make a new dictionary as {group : [count, percentage string]}.
 5. Sort by count (reversely) and then by group name if different occupation/state have same counts.
-6. Write to csv using the sorted data.
+6. Write to csv using the sorted data. Another function was written to write to csv given the original count dictionary returned by the first function mentioned above.
 
 # Run Instructions
-Download H1B data from [Office of Foreign Labor Certification Performance Data](https://www.foreignlaborcert.doleta.gov/performancedata.cfm#dis) and convert the Excel files into semicolon-delimited csv. Place it in the "input" directory, run the "run.sh" script, the result of 2 files named "top_10..." will be written into the output folder with message 'Saved to file' shown.
+Download H1B data from [Office of Foreign Labor Certification Performance Data](https://www.foreignlaborcert.doleta.gov/performancedata.cfm#dis) and convert Excel file into semicolon-delimited csv. Rename it to "h1b_input.csv" and place it in the "input" directory, run the "run.sh" script, the result of 2 files named "top_10..." will be written into the "output" folder.
