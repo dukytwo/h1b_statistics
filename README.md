@@ -5,7 +5,7 @@
 
 # Problem
 
-This script is used to analyze and identify the occupations and states with the most number of approved H1B visas using [Office of Foreign Labor Certification Performance Data](https://www.foreignlaborcert.doleta.gov/performancedata.cfm#dis).  It will identify the **Top 10 Occupations** and **Top 10 States** for **certified** visa applications.
+This script is used to analyze and identify the occupations and states with the most approved H1B visas using [Office of Foreign Labor Certification Performance Data](https://www.foreignlaborcert.doleta.gov/performancedata.cfm#dis).  It will identify the **Top 10 Occupations** and **Top 10 States** for **certified** visa applications.
 
 The code has been tested on data from 2014 to 2018. The code is also modular and reusable for future use as long as the necessary data to calculate the metrics are available, which is 'CASE_STATUS', 'SOC_NAME', and 'WORKSITE_STATE'
 
