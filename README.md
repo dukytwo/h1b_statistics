@@ -18,5 +18,5 @@ The code has been tested on data from 2014 to 2018. The code is also modular and
 5. Sort by count (reverse) and then by group name incase two groups have the same name.
 6. Write to output csv with header and then data
 
-# Run%20Instructions
+# Run Instructions
 Download H1B data from [Office of Foreign Labor Certification Performance Data](https://www.foreignlaborcert.doleta.gov/performancedata.cfm#dis) and then put it in the input directory, run the run.sh script, wait untill 'Saved to file' message shown, find output file under output folder.
